@@ -1,0 +1,72 @@
+*/Grid for About*/
+
+/*--Menüleiste--*/
+
+#navbar{
+	background-color:#333;
+	color:#fff;
+}
+
+#navbar ul{
+	padding:0;
+	list-style: none;
+}
+
+#navbar li{
+	display:inline;
+}
+
+#navbar a{
+	color:#fff;
+	text-decoration: none;
+	font-size:18px;
+	padding-right:15px;
+}
+
+
+/*--Grid--*/
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 50% auto auto 100%;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+.Left {
+  background: white;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.Profile_Picture {
+  background: yellow;
+  grid-column-start: 1;
+  grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.content_beyond_picture {
+  background: purple;
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 8;
+  grid-row-end: 10;
+  color: aliceblue;
+font-size-adjust:auto;
+}
+
+.Education {
+  background: grey;
+  grid-column-start: 4;
+  grid-column-end: 6;
+    grid-row-start:1;
+    grid-row-end: 3;
+}
+.footer-right {
+  background: lightblue;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
