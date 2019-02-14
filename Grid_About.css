@@ -1,6 +1,11 @@
 */Grid for About*/
 
+
 /*--Menüleiste--*/
+#main-header{
+	background-color:#ffef96;
+	color:yellow;
+}
 
 #navbar{
 	background-color:#333;
@@ -23,6 +28,11 @@
 	padding-right:15px;
 }
 
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
 
 /*--Grid--*/
 
@@ -40,30 +50,40 @@
   background: white;
   grid-column-start: 1;
   grid-column-end: 2;
+    padding: 15%;
+    
 }
 .Profile_Picture {
-  background: yellow;
-  grid-column-start: 1;
+  grid-column-start: 2;
   grid-column-end: 3;
-    grid-row-start: 2;
+    grid-row-start: 1;
     grid-row-end: 3;
 }
 .content_beyond_picture {
   background: purple;
-  grid-column-start: 5;
-  grid-column-end: 6;
-  grid-row-start: 8;
-  grid-row-end: 10;
+    font-size: 19px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
   color: aliceblue;
 font-size-adjust:auto;
+    padding: 5%
+        ;
+    
 }
 
 .Education {
   background: grey;
-  grid-column-start: 4;
-  grid-column-end: 6;
+    color:aliceblue;
+    font-size: 20px;
+  grid-column-start: 3;
+  grid-column-end: 7;
     grid-row-start:1;
-    grid-row-end: 3;
+    grid-row-end: 4;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 .footer-right {
   background: lightblue;
