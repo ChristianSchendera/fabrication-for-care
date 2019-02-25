@@ -51,6 +51,7 @@
   grid-column-start: 1;
   grid-column-end: 2;
     padding: 15%;
+    font-family:fantasy;
     
 }
 .Profile_Picture {
@@ -64,10 +65,9 @@
     font-size: 19px;
   grid-column-start: 2;
   grid-column-end: 3;
-  grid-row-start: 3;
+  grid-row-start: 2;
   grid-row-end: 4;
   color: aliceblue;
-font-size-adjust:auto;
     padding: 5%
         ;
     
@@ -75,6 +75,7 @@ font-size-adjust:auto;
 
 .Education {
   background: grey;
+    font-family: monospace;
     color:aliceblue;
     font-size: 20px;
   grid-column-start: 3;
